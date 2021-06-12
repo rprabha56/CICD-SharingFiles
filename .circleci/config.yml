@@ -7,7 +7,7 @@ jobs:
     steps:
       - run: echo "text to output here" > output.txt
       - persist_to_workspace:
-          root: /tmp/workspace
+          root: C:/users/Rajeev/temp
           paths:
             - target/application.jar
             - build/*
